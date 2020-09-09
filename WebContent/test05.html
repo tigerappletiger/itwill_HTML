@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+ 	<nav>
+ 		<a href="test04.html">form-1</a>
+ 		<a href="test04.html">form-2</a>
+ 	</nav>
+
+	<h1>form-2</h1>
+	
+	<hr>
+		<h1>html5에서 추가된 input type의 속성값들 </h1>
+		
+	<p> 
+		html5에서 모바일 환경에 알맞는 폼요소들이 추가됨.
+		input type 값에 따라 형태,종류가 달라짐
+	</p>
+	
+	<form action="test.jsp" method="post">
+	<h2>input type="time" 사용자의 지역을 기준으로 시간을 지정</h2>
+		<input type="time">
+	<h2>input type="date" 사용자의 지역을 기준으로 날짜와 시간을 지정</h2>
+		<input type="date">
+	<h2>input type="datetime-local" 사용자의 지역을 기준으로</h2>
+		<input type="datetime-local">
+	<h2>input type="week" </h2>
+		<input type="Week">
+	<h2>input type="month" </h2>
+		<input type="month">
+	<h2>input type="number" </h2>
+	<p> 
+		시간,날짜 숫자 등의 폼요소에는<br>
+		min 속성으로 입력값의 최소치를,<br>
+		max 속성으로 입력값의 최대치를,<br>
+		step 속성으로 입력값의 간격을 지정할수있다.<br>
+	</p>
+		<input type="number" 숫자값을 지정>
+		
+		<ol> 
+			<li> <label>주문수량<input type="number" min="0" size="4">	</label> 개(min="0") </li>
+			<li><label> 주문수량 <input type="number" max="100"> </label> 주문수량(max="100")</li>
+			<li><label> 주문수량 <input type="number" step="12" > </label>개(step="12")</li>
+		</ol>
+		
+	<h2>input type="range" 범위내의 값을 지정</h2>
+		<input type="range">
+	<h2>input type="tel" 연락처
+	모바일 브라우저에서 가상키패드가 숫자 입력 형식으로 바뀔수있다.</h2>
+		<input type="tel">
+	<h2>input type="email" 
+	<small> 모바일 브라우저에서 가상키패드가 @등을 지원하게 바뀔수있다.</small></h2>
+		<input type="email">
+	<h2>input type="url"
+	<small> 모바일 브라우저에서 알맞은 형식의 값인지 체크해줌 https://등을 지원하게 바뀔수있다..</small></h2>
+		<input type="url">
+	<h2>input type="color"</h2>
+		<input type="color">
+		<hr>
+		
+		<h1>html5에서 추가된 input의 속성들 </h1>
+		<hr>
+		
+		
+		<h2>autofocus="autofocus"</h2>
+		<input type="text" autofocus="autofocus"> 커서가 자동으로 미리 위치함
+		
+		<h2> type="text" autocomplete="on/off"</h2>
+		<input type="text" autocomplete="off"> 자동완성 기능을 켜거나 끔(기본값은 on)
+		
+		<h2>  placeholder=""</h2>
+			<input type="text" placeholder="영문과 숫자조합으로 6~10자" size="20"> <br>
+			입력예시나 설명문을 넣어줌 <br>
+				<label>tel <input type="tel" placeholder=01030305031> </label>
+		
+		<h2>required="required" 입력을 꼭해야한다</h2>
+		<input type="text" required="required"> 필수입력 요소로 지정<br>
+		(브라우저에서 입력데이터의 유무를 체크함)
+		
+		<h2> readonly="readonly"</h2>
+		<input type="text" readonly="readonly" value="A조">입니다.<br>
+		읽기만 가능한요소로 지정
+		
+		<h2> disabled="disabled"</h2>
+		당신은 <input type="text" disabled="disabled" value="개인회원"> <br>
+		사용불가 요소로 지정
+		
+		<input type="submit">
+		<input type="reset">
+		
+		
+		
+		<h2> </h2>
+		
+		
+		
+		</form>
+</body>
+</html>
