@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="test.jsp" method="post"> 
+	
+	<h2>ITWILL 회원가입</h2>
+	<input type="text" readonly="readonly" value="자바(JAVA)개발자 양성">과정<br>
+		
+		
+		<h2>[필수 입력]</h2>
+
+	♣ 이름 <input type="text" value=""><br>
+	♣ 아이디 <input type="text" placeholder="6~10자 영문과 숫자 조합으로 " size="30"><br>
+	♣ 비밀번호  <input type="text" placeholder="8~12자 영문과 ,숫자,특수문자" size="30"><br>
+	
+		<p>
+		♣ 성별 <br>
+		<input type="radio">남 <br>
+		<input type="radio" checked="checked">여 <br>
+		<input type="radio">기타 <br><br>
+		</p>
+		
+		<p>	
+		♣ 생년원일 <input type="date">	<br>
+		♣ 전화번호 <input type="tel" placeholder="(예시)010-777-8888"><br>
+		♣ email <input type="email"><br>
+		</p>
+		
+		
+		<hr>
+		<p>♣ 아이티윌부산이 제공하는 정보를 받으시겠습니까?<br>
+			받습니다<input type="radio" checked="checked"><br>
+			받지 않겠습니다<input type="radio"><br>
+		</p>
+		
+		<p>
+			♣ 정보나 이벤트 소식을 어떻게 받으시겠습니까?<br>
+			이메일<input type="checkbox" checked="checked">
+			문자<input type="checkbox">
+			카카오톡<input type="checkbox" checked="checked">
+			우편<input type="checkbox">
+		</p>
+			
+			
+		<h2>[선택 입력]</h2>
+		
+		<p>
+			♣ 자기소개를 해주세요<br>
+			<textarea rows="5" cols="70">간단히 작성하세요</textarea>
+		</p>
+			
+		<p>♣ 블로그주소 <input type="text"></p> <br>
+		
+		<p>♣ 학과를 선택해주세요 <br>
+			<select>
+				<option> 컴퓨터공학과</option>
+				<option selected="selected"> 산업공학과</option>
+				<option> 기계공학과</option>
+				<option> 화학공학과</option>
+				<option> 전기전자공학과</option>
+				<option> 건축공학과</option>
+			</select></p>
+
+		<p>♣ 취미,특기를 선택해주세요 <br>
+			<select multiple="multiple">
+				<optgroup label="취미">
+					<option> 등산</option>
+					<option> 여행</option>
+					<option> 요리</option>
+					<option> 취미</option>
+				</optgroup>
+				<optgroup label="특기">
+					<option> 운동</option>
+					<option> 바둑</option>
+					<option> 음악</option>
+					<option> 무용</option>
+				</optgroup>
+			</select>
+			</p>
+			
+			<button type="button">
+				<img src="https://www.w3schools.com/tags/img_submit.gif" 
+			width="15" height="15">가입</button> 
+			
+			<button type="button">
+				<img src="https://www.w3schools.com/tags/img_submit.gif" 
+			width="15" height="15">취소</button> 
+						
+		</form>
+</body>
+</html>
