@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form-2</title>
+</head>
+<body>
+<nav> 
+ <a href="test04.html">form-1</a>
+ <a href="test05.html">form-2</a>
+</nav>
+
+<h1>form-2</h1>
+<p>
+ html5에서 모바일환경에 알맞는 폼요소들이 추가됨.<br>
+ input type의 값에 따라 형태,종류가 달라짐
+</p>
+
+<form action="test.jsp" method="post">
+
+<h2>input type="time"</h2>
+<input type="time">
+
+<h2>input type="date"</h2>
+<input type="date">
+<p>min="1920-01-01" 적용
+ <input type="date" min="1920-01-01">
+</p>
+<h2>input type="datetime-local"</h2>
+<input type="datetime-local">
+
+<h2>input type="week"</h2>
+<input type="week">
+
+<h2>input type="month"</h2>
+<input type="month">
+
+<h2>input type="number"</h2>
+<p>시간,날짜 숫자 등의 폼요소에는<br>
+ min속성으로 입력값의 최소치를, <br>
+ max속성으로 입력값의 최대치를, <br>
+ step속성으로 입력값의  간격을 지정할 수 있다.
+</p>
+<input type="number">
+<ol>
+ <li><label>주문수량 <input type="number" min="0"></label>개 (min="0")</li>
+ <li><label>주문수량 <input type="number" max="100"></label>개 (max="100") </li>
+ <li><label>연필 n타스는? <input type="number" step="12"> </label>개 (step="12")</li>
+</ol>
+
+
+<h2>input type="range"</h2>
+<input type="range">
+
+<h2>input type="tel"</h2>
+<input type="tel">
+
+<h2>input type="email"</h2>
+<input type="email">
+
+<h2>input type="url"</h2>
+<input type="url">
+
+<h2>input type="color"</h2>
+<input type="color">
+
+<hr>
+<input type="submit">
+<input type="reset">
+
+</form>
+
+</body>
+</html>
+
+
+
+
+

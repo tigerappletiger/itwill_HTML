@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>form 요소들의 그룹화</h1>
+		<p> <b>fieldset </b> 주제에따라 한번묶어주고  해당 필드셋의 제목은
+		<b>legend</b> tag로 지정하면됨</p>
+		
+		<fieldset> 
+			<legend> 
+				필수입력
+				<input type="text" placeholder="id 입력하세요" required="required">
+				<input type="password" placeholder="비밀 번호 입력" required="required">
+			</legend>
+		</fieldset>
+		<fieldset>
+			<legend>
+				선택입력
+				<input type="text"  placeholder="지원팀">
+				<input type="text"  placeholder="희망분야">
+			</legend>
+		</fieldset>
+</body>
+</html>

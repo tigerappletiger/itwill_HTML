@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>a태그로 링크 걸기</title>
+</head>
+<body>
+<h1>a태그로 링크 걸기</h1>
+	<p> 
+		<b> &lt; href="보여줄 내용의 경로(주소값)" &gt;</b>  <br>
+	</p>
+	<a href="https://www.naver.com">네이버</a> <br>
+	<a href="6.html">이미지 수업보기</a>
+	
+	<h2>속성으로 링크를 여는 방식  (새탭에 열기) </h2>
+	<ol>
+		<li> <a href="#" target="_self">target=</a>"_self" 기본값. 현재위치에 링크가 열림.</li>
+		<li> <a target="#" target="_blank"></a> 새 탭에 링크가 열림.</li>
+		<li> target="_top" 프레임을 나뉘지 않고 전체 링크가 열림.</li>
+		<li> target="_parent" 한단계 상위창에 링크가 열림.</li>
+	</ol>
+			
+	
+	
+	<h2>상대 경로로 웹문서 보여주기(*.html/*.htm) 보여주기</h2>
+	<a href="../test04.html"> 
+	<!-- 내가 현재 만든 폴더를 나가서 웹폴더의 값을 가져와야하니
+	 ../ 현재폴더를 나가면 웹컨텐츠 폴더니 .html 이 들어가진다.-->
+		폼수업 보기 1
+	</a> <br>
+	<a href="../test05.html">
+		폼수업 보기 2
+	</a> <br>
+	<a href="https://www.daum.net/">원래탭</a> <br>
+		<a href="https://www.daum.net/" target="_blank" title="새탭">새탭 다음</a> <br>
+		<a href="https://www.w3schools.com/">다이소</a> <br>
+	<hr>
+	
+	<h2> 2-3 상대경로로 이미지 (*.jpg/ *.gif/ *.png) 보여주기</h2>
+	<a href="../img/coastal.jpg" target="_blank">연안 그림</a> <br>
+	<a href="../img/village.jpg" target="_blank">마을 사진</a> <br>
+	<a href="../img/2/confirm.png"target="_blank">확인</a> <br>
+	
+	<h2> 2-4 상대경로로 동영상 (*.mp4/ *.ogg/ *.web) 보여주기</h2>
+	<a href="../mov_bbb.mp4" target="_blank" title="웹다이쏘 동영상">동영상</a> <br>
+	<a href="../폼테스트.txt">폼테스트용 내용</a>
+	
+	<h2> 2-4 압축파일로 링크 걸기 </h2>
+		<a href="../img.zip">이미지 압축파일</a>
+		<p> 
+			브라우저가 처리 불가한 파일을 링크걸면 다운로드됨
+			예) 압축파일, 한글파일, pdf 등...
+		</p>
+		
+	<h2> mailto : email 링크 걸기</h2>
+	<a href="mailto:master@"busan.go.kr>busan email</a> <br>
+	<a href="mailto:class@"itwillbs.co.kr>class@itwillsbs.co.kr</a>
+ 		
+	
+</body>
+</html>
