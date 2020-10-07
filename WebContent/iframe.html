@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ifrmae</title>
+</head>
+<body>
+	<h1> iframe으로 브라우저에 다른 문서(내용) 보여주기 </h1>
+<iframe>iframe 지원불가한 브라우저용 메시지 해당 브라우저는 내용을 보실수없습니다.</iframe>
+
+<h3>src="보여질 내용"</h3>
+<iframe src="test06.html"></iframe>
+
+<h3>width="n" height="n" 가로크기 와 세로크기 지정</h3>
+<iframe src="test07.html" width="800" height="600"></iframe>
+
+<h3>src="url"(외부사이트 경로)</h3>
+<iframe src="https://itwillbs.co.kr//" width="1000" height="500"></iframe>
+
+<h3> src="gif/jpg/.."(이미지파일)</h3>
+<iframe src="img/buenosia.jpg" width="1000" height="500"></iframe>
+
+<h3> src="gif/jpg/.."(동영상파일)</h3>
+<iframe src="mov_bbb.mp4" ></iframe>
+
+<h3> src="txt"(txt파일)</h3>
+<iframe src="폼테스트.txt" ></iframe>
+
+<hr>
+<h2> ifrmae안에 링크 열어주기 - ,새탭 _blank</h2>
+<nav> 
+	<a href="test04.html">test04.html</a> 
+	<a href="test05.html">test05.html</a>
+	<a href="test06.html">test06.html</a>
+	<a href="test07.html">test07.html</a>
+</nav>
+	<iframe name="html-box1" src="test07.html" width="800" height="500">
+	</iframe>
+<hr><br><br><br>
+<nav> 
+	<a href="test04.html" target="html-box">test04.html</a> 
+	<a href="test05.html" target="html-box">test05.html</a>
+	<a href="test06.html" target="html-box">test06.html</a>
+	<a href="test07.html" target="html-box">test07.html</a>
+</nav>
+	<iframe name="html-box" src="test07.html" width="800" height="500">
+	</iframe>
+	
+	
+<h2> iframe test </h2>
+		<nav> 
+	<a href="https://pixabay.com/ko/" target="html-box2">pixabay</a> 
+	<a href="https://www.pexels.com/ko-kr/l" target="html-box2">pexels</a>
+</nav>
+	<iframe name="html-box2" src=" " width="800" height="500">
+	</iframe>
+
+</body>
+</html>
